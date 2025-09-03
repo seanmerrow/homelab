@@ -1,0 +1,26 @@
+$TTL 1W
+@	IN	SOA	ns1.scmlab.com.	admin.scmlab.com. (
+			2019070700	; serial
+			3H		; refresh (3 hours)
+			30M		; retry (30 minutes)
+			2W		; expiry (2 weeks)
+			1W )		; minimum (1 week)
+
+
+				          IN	NS	ns1.scmlab.com.
+
+;
+ns1				        IN	A	192.168.86.243
+utility				    IN	A	192.168.86.243
+;
+helper				    IN	A	192.168.86.244
+helper.ocp4			  IN	A	192.168.86.244
+;
+api.ocp4			    IN	A	192.168.86.244
+api-int.ocp4			IN	A	192.168.86.244
+;
+*.apps.ocp4			  IN	A	192.168.86.244
+;
+hub.ocp4			    IN	A	192.168.86.244
+;
+;EOF
