@@ -1,0 +1,18 @@
+$TTL 1W
+
+@	IN	SOA	ns1.scmlab.com.	admin.scmlab.com. (
+			2019070700	; serial
+			3H		; refresh (3 hours)
+			30M		; retry (30 minutes)
+			2W		; expiry (2 weeks)
+			1W )		; minimum (1 week)
+	IN	NS	ns1.scmlab.com.
+;
+244.86.168.192.in-addr.arpa.	IN	PTR	ns1.scmlab.com. 
+244.86.168.192.in-addr.arpa.	IN	PTR	utility.scmlab.com. 
+;
+244.86.168.192.in-addr.arpa.	IN	PTR	hub.ocp4.scmlab.com. 
+244.86.168.192.in-addr.arpa.	IN	PTR	api.ocp4.scmlab.com. 
+244.86.168.192.in-addr.arpa.	IN	PTR	api-int.ocp4.scmlab.com.
+;
+;EOF
