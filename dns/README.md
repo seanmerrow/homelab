@@ -51,3 +51,8 @@ Test a reverse lookup using the `-x` switch.
 ```
 # dig @192.168.86.243 -x 192.168.86.244
 ```
+# Configuring hosts that use a different name server
+If you have a host that will not use this name server, then you can manually add an entry as shown below to the `/etc/hosts` file.
+```
+192.168.86.245     api.hub.ocp4.scmlab.com canary-openshift-ingress-canary.hub.ocp4.scmlab.com  console-openshift-console.apps.hub.ocp4.scmlab.com  default-route-openshift-image-registry.hub.ocp4.scmlab.com downloads-openshift-console.apps.hub.ocp4.scmlab.com oauth-openshift.apps.hub.ocp4.scmlab.com
+```
