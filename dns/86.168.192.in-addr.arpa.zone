@@ -11,8 +11,8 @@ $TTL 1W
 244.86.168.192.in-addr.arpa.	IN	PTR	ns1.scmlab.com. 
 244.86.168.192.in-addr.arpa.	IN	PTR	utility.scmlab.com. 
 ;
-244.86.168.192.in-addr.arpa.	IN	PTR	hub.scmlab.com. 
-244.86.168.192.in-addr.arpa.	IN	PTR	api.scmlab.com. 
-244.86.168.192.in-addr.arpa.	IN	PTR	api-int.scmlab.com.
+244.86.168.192.in-addr.arpa.	IN	PTR	hub.ocp4.scmlab.com. 
+244.86.168.192.in-addr.arpa.	IN	PTR	api.ocp4.scmlab.com. 
+244.86.168.192.in-addr.arpa.	IN	PTR	api-int.ocp4.scmlab.com.
 ;
 ;EOF
