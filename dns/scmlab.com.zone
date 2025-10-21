@@ -14,13 +14,12 @@ ns1				        IN	A	192.168.86.243
 utility				    IN	A	192.168.86.243
 ;
 helper				    IN	A	192.168.86.244
-helper.ocp4			  IN	A	192.168.86.244
 ;
-api.ocp4			    IN	A	192.168.86.244
-api-int.ocp4			IN	A	192.168.86.244
+api			   			IN	A	192.168.86.244
+api-int					IN	A	192.168.86.244
 ;
-*.apps.ocp4			  IN	A	192.168.86.244
+*.apps					IN	A	192.168.86.244
 ;
-hub.ocp4			    IN	A	192.168.86.244
+hub			   			IN	A	192.168.86.244
 ;
 ;EOF
