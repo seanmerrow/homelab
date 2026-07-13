@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-    S@{ shape: circ, label: "Start" } -->A(Perform Partner Validation) }
+    S@{ shape: circ, label: "Start" } -->A(Perform Partner Validation)
     A -->B("Create integrated\nuse-case blog")
     B -->C{"Is it a good AI\nquickstart candidate?"}
     B -.->|Link| F
