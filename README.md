@@ -7,6 +7,6 @@ flowchart TD
     B -.->|Link| F
     C -->|Yes| D[Create AI quickstart]
     B -.->|Link| D
-    C -->|No| E[Stop]
+    C -->|No| E@{ shape: dbl-circ, label: "Stop" }
     D --> F("Create demo\nor arcade")
 ```
