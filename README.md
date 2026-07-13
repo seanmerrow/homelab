@@ -6,7 +6,7 @@ flowchart TD
     A -->B("Create integrated\nuse-case blog")
     B -->C{"Is it a good AI\nquickstart candidate?"}
     B -.->|Link| F
-    C -->|Yes| D[Create AI quickstart]
+    C -->|Yes| D["Create\nAI quickstart"]
     B -.->|Link| D
     C -->|No| E@{ shape: dbl-circ, label: "Stop" }
     D -->F("Create demo\nor arcade")
