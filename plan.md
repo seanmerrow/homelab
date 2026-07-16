@@ -8,9 +8,9 @@ gantt
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
     section School
-        Fall Semester             :done,    des1, 2014-01-06,2014-01-08
-        Winter Break               :active,  des2, 2014-01-09, 3d
-        Spring Semester               :         des3, after des2, 5d
+        Fall Semester             :  des1, 2026-09-01,2026-12-15
+        Winter Break              :  des2, after des1, 2026-12-16,2027-01-23
+        Spring Semester           :  des3, after des2, 2027-01-24,2027-05-15
 
     section Certification
         CCST Cybersecurity :crit, done, 2014-01-06,24h
