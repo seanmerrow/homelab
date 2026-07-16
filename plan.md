@@ -13,7 +13,7 @@ gantt
         Spring Semester           :  des3, after des2, 2027-01-24,2027-05-15
 
     section Certification
-        CCST Cybersecurity        : done, 2014-01-06,24h
+        CCST Cybersecurity        : done, 2027-05-15,24h
         CCNA                      : done, after des1, 2d
         CCNA Cybersecurity        : active, 3d
         CCNP Cyber Core           : 5d
