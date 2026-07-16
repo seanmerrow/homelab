@@ -1,3 +1,6 @@
+# Cyber Plan
+
+```mermaid
 gantt
     dateFormat  YYYY-MM-DD
     title       Cyber Plan
@@ -17,3 +20,4 @@ gantt
     CCNP Cyber Elective           :2d
     Add to mermaid                      :until isadded
     Functionality added                 :milestone, isadded, 2014-01-25, 0d
+```
