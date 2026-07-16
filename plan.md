@@ -17,7 +17,7 @@ gantt
         CCNA                      : done, after des1, 2d
         CCNA Cybersecurity        : active, 3d
         CCNP Cyber Core           : 5d
-        CCNP Cyber Elective       :2d
+        CCNP Cyber Elective       : 2d
 ```
 
 
