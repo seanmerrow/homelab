@@ -9,7 +9,7 @@ flowchart TD
     patch -->|Yes|link
     patch -->|No|create-patch("Create\nupstream patch")
     create-patch -->link
-    link --> downstream("Once (or if) merged,\nRed Hat\ndownstreams\nthe patch")
+    link --> downstream("OWhen, or if, merged,\nRed Hat\ndownstreams\nthe patch")
     downstream --> test("Red Hat may\nrequest partner\ntest with RPM")
     test -->|Pass|release("Red Hat releases\nin future release")
     release -->Stop@{ shape: circle, label: "Stop" }
